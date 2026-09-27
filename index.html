@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz cumpleaños Lauluphine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@600;700;800&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true"></div>
+  <div class="emoji-fall" id="emojiFall" aria-hidden="true"></div>
+  <div id="bgMusic" class="bg-music" aria-hidden="true"></div>
+  <button class="sound-toggle" id="soundToggle" type="button">🔊 Activar sonido</button>
+
+  <main class="card">
+    <header class="hero">
+      <p class="eyebrow">Para la reina del chat</p>
+      <h1>Feliz cumpleaños Lauluphine</h1>
+    </header>
+
+    <article class="message" aria-label="Mensaje de cumpleaños">
+      <p>🎂✨ <strong>Feliz cumpleaños, Lau.</strong> ✨🎂</p>
+
+<p>Hoy queremos celebrar a Lauluphine, pero sobre todo a la persona que está detrás de ella.</p>
+
+<p>Sabemos todo el esfuerzo que haces cada día para ser la persona que eres hoy. Te levantas, sigues adelante, preparas tus streams, ríes, te asustas, gritas, haces locuras y, aunque no todos los días sean fáciles, siempre encuentras la manera de seguir.</p>
+
+<p>Y creo que eso es una de las muchas razones por las que te queremos tanto. Porque detrás de cada stream, cada risa y cada susto, está <strong>Lau</strong>, una persona que ha conseguido ganarse el cariño de muchísimas personas simplemente siendo ella misma.</p>
+
+<p>Tu chat, tu familia y todas las personas que te queremos deseamos que nunca olvides lo importante que eres para nosotros y todos los momentos bonitos que nos has regalado.</p>
+
+<p>💗 Gracias por cada risa, cada momento y por dejarnos compartir un pedacito de tu vida.</p>
+
+<p><strong>Feliz cumpleaños, Lau. Te queremos muchísimo. ❤️</strong></p>
+
+<p>Con cariño,<br><strong>tu chat y todas las personas que te quieren. 🌸</strong></p>
+
+    </article>
+
+    <section class="gift-row" aria-label="Sorpresas">
+      <button
+        class="gift"
+        data-video="assets/cancion.mp4"
+        data-message="Este es un resumen de todo lo que la gente piensa de ti… 💗"
+        aria-label="Abrir sorpresa uno"
+      >
+        <span class="gift-top"></span>
+        <span class="gift-body"></span>
+      </button>
+      <button
+        class="gift"
+        data-video="assets/saludos.mp4"
+        data-message="Todos te mandan un mensaje especial 💌"
+        aria-label="Abrir sorpresa dos"
+      >
+        <span class="gift-top"></span>
+        <span class="gift-body"></span>
+      </button>
+    </section>
+  </main>
+
+  <div class="gift-message" id="giftMessage" aria-hidden="true">
+    <p id="giftMessageText"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
